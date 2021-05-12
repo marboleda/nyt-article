@@ -1,3 +1,18 @@
+body {
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+article {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+
+img {
+    max-width: 100%;
+}
+
 h1 {
     text-align: center;
 }
