@@ -7,6 +7,22 @@ article {
   position: absolute;
   left: 20%;
   right: 20%;
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+}
+
+h1,
+.social-media-list,
+figure {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+}
+
+#author-and-date,
+#sign-up-intermission,
+.article-content {
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 img {
